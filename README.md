@@ -46,7 +46,7 @@ pip install -r requirements.txt
 
 Follow https://github.com/endee-io/endee to run the Endee server locally. By default the code expects:
 
-- `http://localhost:8000` as the API URL
+- `http://localhost:8080` as the API URL
 
 If your server runs elsewhere, set:
 
