@@ -1,4 +1,4 @@
-# Stack Overflow Semantic Search + RAG (Endee)
+# Stack Overflow Semantic Search + RAG (Powered by Endee Vector DB)
 
 A complete end-to-end project that builds a semantic search and retrieval-augmented generation (RAG) assistant using:
 
