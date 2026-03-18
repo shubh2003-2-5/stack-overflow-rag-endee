@@ -8,9 +8,16 @@ from src.retrieve import retrieve
 def main():
     st.set_page_config(page_title="Stack Overflow RAG", layout="wide")
 
-    st.title("Stack Overflow Semantic Search (RAG)")
+    st.title("Stack Overflow Semantic Search (RAG) — Powered by Endee Vector DB")
     st.write(
-        "Enter a query and the app will retrieve relevant Stack Overflow posts and generate an answer."\
+        "Enter a query and the app will retrieve relevant Stack Overflow posts using Endee vector database and generate an answer with Azure OpenAI GPT-4.1."
+    )
+
+    api_key = st.text_input(
+        "OpenAI API key (optional)",
+        value="",
+        type="password",
+        help="Provide your OpenAI API key to get a generated answer; leave blank to see retrieved snippets only.",
     )
 
     query = st.text_input("Search query", value="", max_chars=256)
@@ -39,7 +46,11 @@ def main():
             st.write("---")
 
         with st.spinner("Generating answer..."):
-            rag_resp = answer_query(query, top_k=TOP_K)
+            rag_resp = answer_query(
+                query,
+                top_k=TOP_K,
+                openai_api_key=api_key,
+            )
 
         st.subheader("Generated answer")
         st.write(rag_resp.get("answer"))

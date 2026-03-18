@@ -21,4 +21,4 @@ SAMPLE_SIZE = int(os.environ.get("SAMPLE_SIZE", "5000"))
 
 # OpenAI (optional)
 OPENAI_API_KEY = os.environ.get("OPENAI_API_KEY")
-OPENAI_MODEL = os.environ.get("OPENAI_MODEL", "gpt-3.5-turbo")
+OPENAI_MODEL = os.environ.get("OPENAI_MODEL", "gpt-4o")
