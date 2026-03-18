@@ -10,6 +10,16 @@ A complete end-to-end project that builds a semantic search and retrieval-augmen
 
 ---
 
+## 🖼️ Basic RAG Pipeline (Visual)
+
+Below is a screenshot illustrating the core Retrieval-Augmented Generation (RAG) pipeline used in this project:
+
+![Basic RAG Pipeline](Screenshot-2026-03-18-142404.png)
+
+> The pipeline shows how a user query is processed: relevant documents are retrieved from Endee vector DB, and Azure OpenAI GPT-4.1 generates a context-aware answer using those documents.
+
+---
+
 ## 📦 Prerequisites
 
 - Python 3.8+
@@ -152,16 +162,6 @@ Configuration values are in `src/config.py` and can be overridden with environme
 - `AZURE_OPENAI_API_KEY` – Azure OpenAI API key for RAG
 - `AZURE_OPENAI_BASE_URL` – Azure OpenAI resource endpoint
 - `AZURE_OPENAI_DEPLOYMENT` – Azure OpenAI deployment name (for GPT-4.1)
-
----
-
-## 🖼️ Basic RAG Pipeline (Visual)
-
-Below is a screenshot illustrating the core Retrieval-Augmented Generation (RAG) pipeline used in this project:
-
-![Basic RAG Pipeline](Screenshot-2026-03-18-142404.png)
-
-> The pipeline shows how a user query is processed: relevant documents are retrieved from Endee vector DB, and Azure OpenAI GPT-4.1 generates a context-aware answer using those documents.
 
 ---
 
