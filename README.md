@@ -8,7 +8,11 @@ A complete end-to-end project that builds a semantic search and retrieval-augmen
 - **Dataset:** Stack Overflow questions (CSV)
 - **LLM:** Azure OpenAI GPT-4.1
 
----
+## 🎥 Project Explanation Video
+
+You can watch the project explanation video here:
+
+[Project Explanation Video on Google Drive](https://drive.google.com/file/d/1JfUYu8qnzFAs_i5XN7NpuOjE7jL8Hbwf/view?usp=sharing)
 
 ## 🖼️ Basic RAG Pipeline (Visual)
 
