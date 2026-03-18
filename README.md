@@ -80,7 +80,8 @@ python -m src.ingest
 6. **Run Streamlit UI**
 
 ```bash
-streamlit run app.py
+streamlit run app.py # If streamlit not found issues comes, try below command
+python -m streamlit run app.py
 ```
 
 ## 🛠️ Troubleshooting
