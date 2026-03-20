@@ -18,6 +18,16 @@ Below is a screenshot illustrating the core Retrieval-Augmented Generation (RAG)
 
 ---
 
+## Video Explanation
+
+For a detailed explanation of this project, please watch the video linked below:
+
+[Watch Video Explanation](https://drive.google.com/file/d/1vIRQo4PwZYyKrNjZFXQJlMMY0EeUYTLh/view?usp=sharing)
+
+---
+
+---
+
 ## 📦 Prerequisites
 
 - Python 3.8+
@@ -182,11 +192,5 @@ Endee is used as the vector store:
 3. `src/rag.py` uses the retrieved documents to build context for generation.
 
 ---
-
-## Video Explanation
-
-For a detailed explanation of this project, please watch the video linked below:
-
-[Watch Video Explanation](https://drive.google.com/file/d/1vIRQo4PwZYyKrNjZFXQJlMMY0EeUYTLh/view?usp=sharing)
 
 **You are now ready to run a full-stack RAG pipeline using Endee and Azure OpenAI GPT-4.1!**
