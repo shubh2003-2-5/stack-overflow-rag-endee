@@ -8,12 +8,6 @@ A complete end-to-end project that builds a semantic search and retrieval-augmen
 - **Dataset:** Stack Overflow questions (CSV)
 - **LLM:** Azure OpenAI GPT-4.1
 
-## 🎥 Project Explanation Video
-
-You can watch the project explanation video here:
-
-[Project Explanation Video on Google Drive](https://drive.google.com/file/d/1JfUYu8qnzFAs_i5XN7NpuOjE7jL8Hbwf/view?usp=sharing)
-
 ## 🖼️ Basic RAG Pipeline (Visual)
 
 Below is a screenshot illustrating the core Retrieval-Augmented Generation (RAG) pipeline used in this project:
@@ -188,5 +182,11 @@ Endee is used as the vector store:
 3. `src/rag.py` uses the retrieved documents to build context for generation.
 
 ---
+
+## Video Explanation
+
+For a detailed explanation of this project, please watch the video linked below:
+
+[Watch Video Explanation](https://drive.google.com/file/d/1vIRQo4PwZYyKrNjZFXQJlMMY0EeUYTLh/view?usp=sharing)
 
 **You are now ready to run a full-stack RAG pipeline using Endee and Azure OpenAI GPT-4.1!**
